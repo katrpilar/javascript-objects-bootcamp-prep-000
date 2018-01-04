@@ -9,7 +9,6 @@ function updatePlaylist(playlist, artistName, songTitle){
 function removeFromPlaylist(play, artistName){
   ith = delete play.artistName;
   if(ith == true){
-    
+      return play;
   }
-  return play;
 }
