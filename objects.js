@@ -1,4 +1,4 @@
-var playlist = {
+const playlist = {
   "Lady Gaga": "joanne"
 }
 
